@@ -104,8 +104,6 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@AbbasSarwar](https://github.com/AbbasSarwar)
