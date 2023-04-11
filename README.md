@@ -55,7 +55,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Soon]**
+- **[Simple Layout]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,7 +84,7 @@ In order to run this project you need:
 -Commands: npm install
 
 ### Setup
-* git clone ....
+* git clone https://github.com/AbbasSarwar/Leaderboard.git
 * cd Leaderboard
 * git checkout Add-remove
 
