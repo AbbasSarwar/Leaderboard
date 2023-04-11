@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.headerboard {
+padding: 40px 10px;
+font-size: 20px;
+font-family: 'Titillium Web', sans-serif;
+}
+.container {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    width: 60%;
+    gap: 20px;
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    margin-left: 50px;
+}
+.card2 form input{
+    width: 100%;
+    height: 25px;
+    text-indent: 5px;
+}
+.card2 form input[type='submit']{
+float: right;
+width: 30%;
+height: 25px;
+background-color: #fff;
+text-indent: 0;
+}
+.card2 form input[type='submit']:hover{
+    background-color: #63c6f7;
+}
+.card2 form input[type='number']::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.card1 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.card2 h2 {
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.topboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.topboard button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    font-weight: 400;
+    transition: .1s all;
+}
+.topboard button:hover {
+    background-color: #63c6f7;
+}
+.board ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid black;
+}
+.board ul li {
+    padding: 5px 5px;
+}
+.board ul li:nth-of-type(2n){
+    background-color: rgb(224, 224, 224);
+}
