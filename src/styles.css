@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
   display: flex;
@@ -48,10 +49,11 @@ body {
   transition: 0.5s;
   border: 1px solid rgb(104, 104, 120);
 }
+
 .card2 form input:focus {
-border: 2px solid blue;
-border-radius: 3px;
-outline: blue;
+  border: 2px solid blue;
+  border-radius: 3px;
+  outline: blue;
 }
 
 .card2 form input[type='submit'] {
@@ -99,7 +101,6 @@ outline: blue;
   width: 100px;
   height: 30px;
   background-color: #d2f1fc;
-  font-weight: 400;
   transition: 0.5s all;
   border: 1px solid rgb(43, 43, 55);
   border-radius: 3px;
@@ -128,12 +129,14 @@ outline: blue;
 .board ul li:nth-of-type(2n) {
   background-color: rgb(224, 224, 224);
 }
-.board ul li:first-child{
+
+.board ul li:first-child {
   background-color: #7b717d;
   color: #fff;
 }
+
 footer {
-  padding: 0 20px ;
+  padding: 0 20px;
   border: 1px solid black;
   height: 10vh;
   display: flex;
