@@ -58,15 +58,17 @@ outline: blue;
   float: right;
   width: 40%;
   height: 30px;
-  background-color: #fff;
+  background-color: #d2f1fc;
   text-indent: 0;
+  font-weight: 600;
   border: 1px solid rgb(41, 41, 72);
   outline: blue;
   border-radius: 2px;
 }
 
 .card2 form input[type='submit']:hover {
-  background-color: #63c6f7;
+  background-color: #28759c;
+  color: #fff;
 }
 
 .card2 form input[type='number']::-webkit-inner-spin-button {
@@ -96,16 +98,18 @@ outline: blue;
 .topboard button {
   width: 100px;
   height: 30px;
-  background-color: #fff;
+  background-color: #d2f1fc;
   font-weight: 400;
   transition: 0.5s all;
   border: 1px solid rgb(43, 43, 55);
   border-radius: 3px;
+  font-weight: 600;
 }
 
 .topboard button:hover {
-  background-color: #63c6f7;
-  border: 1px solid rgb(126, 126, 213);
+  background-color: #28759c;
+  border: 1px solid rgb(181, 181, 255);
+  color: #fff;
 }
 
 .board ul {
