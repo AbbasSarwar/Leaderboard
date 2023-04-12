@@ -29,10 +29,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Todo List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 > Hello , This is a Leaderboard application.
-**[Leaderboard]** is a simple app where you score will be shown.
+**[Leaderboard]** is a simple app where you send and receive score with name to an API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
