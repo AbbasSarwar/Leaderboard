@@ -118,7 +118,7 @@ outline: blue;
 
 .board ul li {
   padding: 5px 5px;
-  color: #000000;
+  color: #381450;
 }
 
 .board ul li:nth-of-type(2n) {
@@ -126,6 +126,7 @@ outline: blue;
 }
 .board ul li:first-child{
   background-color: #7b717d;
+  color: #fff;
 }
 footer {
   padding: 0 20px ;
