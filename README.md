@@ -115,7 +115,9 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[API score displaying]**
-
+- [ ] **[Creating new Game]**
+- [ ] **[User create]**
+- [ ] **[Score Update to API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

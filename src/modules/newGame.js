@@ -6,7 +6,7 @@ async function GameCreate() {
         'Content-type': 'application/json',
       },
       body: JSON.stringify({
-        name: 'Falcon',
+        name: 'New Game',
       }),
     }).then((res) => res.json())
       .then((v) => {
