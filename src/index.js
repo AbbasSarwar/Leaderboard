@@ -25,7 +25,7 @@ async function display() {
     .then((data) => {
       const allData = data.result;
       const newAr = allData.sort((a, b) => b.score - a.score);
-      const itemsToDisplay = Math.min(4, newAr.length);
+      const itemsToDisplay = Math.min(6, newAr.length);
       let html = '';
       for (let i = 0; i < itemsToDisplay; i += 1) {
         html += `<li>${newAr[i].user}: ${newAr[i].score}</li>`;
