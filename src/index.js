@@ -1,5 +1,3 @@
-import './styles.css';
-
 const Form = document.getElementById('form');
 const refresh = document.getElementById('ref');
 async function GameCreate() {
