@@ -1,9 +1,45 @@
 import './styles.css';
-import NewUser from './modules/newUser.js';
-import GameCodes from './modules/newGame.js';
 
 const Form = document.getElementById('form');
 const refresh = document.getElementById('ref');
+async function GameCreate() {
+  const UniqueCode = () => {
+    const Unique = fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: 'New Game',
+      }),
+    }).then((res) => res.json())
+      .then((v) => {
+        const spl = v.result;
+        const code = spl.split(' ')[3];
+        return code;
+      });
+    return Unique;
+  };
+  const codee = await UniqueCode();
+  return codee;
+}
+async function GameCodes() {
+  const callGame = await GameCreate();
+  return callGame;
+}
+async function NewUser(User, score) {
+  fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${GameCodes}/scores/`, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      user: User,
+      score,
+    }),
+  }).then((res) => res.json())
+    .then((data) => data);
+}
 async function addNewUser(e) {
   e.preventDefault();
   const userInp = document.getElementById('Name').value;
